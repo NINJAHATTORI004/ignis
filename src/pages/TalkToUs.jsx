@@ -8,10 +8,10 @@ const TalkToUs = () => {
     phoneNumber: "",
     workEmail: "",
     brandWebsite: "",
-    campaignBudget: "",
-    campaignStartDate: "",
+    //campaignBudget: "",
+   // campaignStartDate: "",
     howDidYouHear: "",
-    campaignObjective: "",
+    collabObjective: "",
   });
 
   const [errors, setErrors] = useState({}); // State for error messages
@@ -40,17 +40,17 @@ const TalkToUs = () => {
     } else if (!urlRegex.test(formData.brandWebsite)) {
       newErrors.brandWebsite = "Please enter a valid URL.";
     }
-    if (!formData.campaignBudget) {
-      newErrors.campaignBudget = "Campaign Budget is required.";
-    }
-    if (!formData.campaignStartDate) {
-      newErrors.campaignStartDate = "Campaign Start Date is required.";
-    }
+  //  if (!formData.campaignBudget) {
+    //  newErrors.campaignBudget = "Campaign Budget is required.";
+  //  }
+    //if (!formData.campaignStartDate) {
+      //newErrors.campaignStartDate = "Campaign Start Date is required.";
+    //}
     if (!formData.howDidYouHear) {
       newErrors.howDidYouHear = "Please select how you heard about us.";
     }
-    if (!formData.campaignObjective) {
-      newErrors.campaignObjective = "Campaign Objective is required.";
+    if (!formData.collabObjective) {
+      newErrors.collabObjective = "Collab Objective is required.";
     }
 
     setErrors(newErrors);

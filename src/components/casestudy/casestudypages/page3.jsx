@@ -1,3 +1,4 @@
+// 
 import Navbar from "../../Navbar";
 import Footer from "../../Footer";
 import BubbleComponent from "../../solutions/page/BubbleComponent";
@@ -5,34 +6,35 @@ import BubbleComponent from "../../solutions/page/BubbleComponent";
 const Page3 = () => {
   const Page3Data = {
     discovery: {
-      name: "From Tranquil Tea Garden to a Beloved Destination",
+      name: "Global Minds: Supporting Student Mental Health",
       title: "Overview & Challenges",
       description: `
-        The Chai Bagh, a unique tea garden in Jaipur, has become a beloved destination for tea enthusiasts and visitors seeking a peaceful environment filled with the aroma of freshly brewed tea. Before collaborating with House of Marktech, The Chai Bagh faced challenges including limited visibility in a competitive market, lack of customer engagement, and ineffective marketing strategies.
+        Global Minds, a renowned counseling organization, has focused on alleviating mental health challenges among students aged 16-24 for over two decades. In response to increasing academic pressure, social media influences, and future uncertainties, Global Minds has developed strategies to support students in overcoming issues such as anxiety, depression, and stress.
       `,
     },
     creation: {
-      name: "Strategy Implementation: Elevating Brand & Engagement",
-      title: "Building a Distinct Identity & Presence",
+      name: "Strategy Implementation: Building a Supportive Environment",
+      title: "Creating a Comprehensive Mental Health Program",
       description: `
-        We addressed The Chai Bagh’s challenges with a comprehensive strategy focused on:
-        - Developing a distinctive brand identity that reflects the charm of the tea garden.
-        - Designing and developing a user-friendly website that highlights The Chai Bagh’s unique offerings, including tea menus, events, and booking options.
-        - Implementing an SEO and content marketing strategy to boost organic visibility.
-        - Launching an engaging social media strategy, featuring visually appealing posts, polls, and contests.
-        - Partnering with influencers to create buzz and attract a broader audience.
-        These initiatives helped elevate The Chai Bagh’s brand, engagement, and sales.
+        Global Minds developed an expert-led mental health program featuring:
+        - Personalized counseling sessions utilizing CBT, mindfulness, and resilience training.
+        - Peer mentorship programs to foster community support.
+        - Educational workshops on stress management, time management, and resilience.
+        - A 24/7 mental health hotline and online resources for immediate support and self-care.
+        - Awareness campaigns to reduce stigma around mental health.
+        These interventions provided students with tools and resources to manage mental health effectively.
       `,
     },
     activation: {
-      name: "Results: A Tea Garden's Success Story",
+      name: "Results: Significant Improvement in Well-being",
       title: "Measuring Success through Metrics",
       description: `
-        The strategies implemented resulted in remarkable growth:
-        - A 50% increase in website traffic within the first six months.
-        - A 120% growth in social media followers, with significantly improved engagement.
-        - A 30% increase in sales, attributed to increased foot traffic and online orders.
-        The Chai Bagh’s transformation over the past year illustrates the impact of strategic branding and digital marketing.
+        The program led to measurable improvements in student well-being:
+        - A 60% reduction in anxiety and a 45% reduction in depression symptoms.
+        - A 30% increase in academic performance and engagement.
+        - 75% of students reported a stronger sense of belonging and reduced isolation.
+        - A 40% increase in students willing to seek mental health support, showing reduced stigma.
+        Global Minds' approach highlights the positive impact of tailored mental health support.
       `,
     },
   };
@@ -46,12 +48,12 @@ const Page3 = () => {
           <BubbleComponent />
         </div>
         <h1 className="text-6xl font-bold text-center z-hero mt-8">
-          From Tranquil Tea Garden to a Beloved Destination
+          Global Minds: Supporting Student Mental Health
         </h1>
       </section>
       <div className="bg-gray-300">
         <h1 className="text-6xl text-black font-bold text-center z-hero py-8">
-          The Chai Bagh Growth Journey
+          Case Study: Enhancing Mental Health Support for Students
         </h1>
       </div>
 
