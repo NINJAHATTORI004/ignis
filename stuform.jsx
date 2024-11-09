@@ -13,6 +13,8 @@ export default function Component() {
     ageAtEnrollment: '',
     currUnits1stSemEnrolled: '',
     currUnits1stSemApproved: '',
+    currUnits1stSemGrade: '',
+    currUnits2ndSemEnrolled: '',
     currUnits2ndSemApproved: '',
     currUnits2ndSemGrade: '',
     displaced: '',
@@ -91,9 +93,29 @@ export default function Component() {
                 placeholder="Enter number of units"
               />
             </div>
+             <div className="space-y-2">
+              <Label htmlFor="currUnits1stSemGrade">Curricular Units 1st Sem (Grade)</Label>
+              <Input
+                id="currUnits1stSemGrade"
+                name="currUnits1stSemGrade"
+                value={formData.currUnits1stSemGrade}
+                onChange={handleInputChange}
+                placeholder="Enter grade"
+              />
+            </div>
           </div>
 
           <div className="grid grid-cols-2 gap-4">
+            <div className="space-y-2">
+              <Label htmlFor="currUnits2ndSemEnrolled">Curricular Units 2nd Sem (Enrolled)</Label>
+              <Input
+                id="currUnits2ndSemEnrolled"
+                name="currUnits2ndSemEnrolled"
+                value={formData.currUnits2ndSemEnrolled}
+                onChange={handleInputChange}
+                placeholder="Enter number of units"
+              />
+            </div>
             <div className="space-y-2">
               <Label htmlFor="currUnits2ndSemApproved">Curricular Units 2nd Sem (Approved)</Label>
               <Input
