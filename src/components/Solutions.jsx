@@ -7,27 +7,31 @@ import React, { useState, useEffect, useRef } from 'react'
 
 
 const cards = [
-  // { id: 1, backHeading: "Lack of Innovation in Growth?", backSubheading: `We drive <span class='text-blue-600'>Growth</span> through tech, data, and strategy.` },
-  // { id: 2, backHeading: "Weak Brand Identity?", backSubheading: "We craft bold <span class='text-blue-600'>Branding</span> with standout content." },
-  // { id: 3, backHeading: "Inefficient Operations?", backSubheading: "We optimize processes with streamlined <span class='text-blue-600'>Strategies.</span>" },
-  // { id: 4, backHeading: "Outdated Websites & Apps?", backSubheading: "We build modern, high-performance <span class='text-blue-600'>Websites and Apps.</span>" },
-  // { id: 5, backHeading: "Low Visual Appeal?", backSubheading: "We create stunning visuals with <span class='text-blue-600'>CGI and Animation.</span>" },
-  // { id: 6, backHeading: "Unclear Marketing Strategy?", backSubheading: "We design data-driven, result-focused <span class='text-blue-600'>Marketing plans.</span>" },
-  // { id: 7, backHeading: "Poor Data Utilization?", backSubheading: "We boost growth with <span class='text-blue-600'>AI and Data Analytics</span> solutions." },
-  // { id: 8, backHeading: "Struggling to Scale in Competitive Markets?", backSubheading: "We <span class='text-blue-600'>Scale</span> brands with innovative tech and insights." },
-  // { id: 9, backHeading: "Outdated Content?", backSubheading: "We refresh messaging with engaging, relevant <span class='text-blue-600'>Content.</span>" },
-  // { id: 10, backHeading: "Need All Services in One Place?", backSubheading: "We offer full-service solutions—from <span class='text-blue-600'>Branding to Technology.</span>" },
-  { id: 1, backHeading: "Early Dropout Risk Detection", backSubheading: "Ignis Mentis leverages an advanced machine learning model to identify students at risk of dropping out early. By analyzing academic, behavioral, and socioeconomic data, the platform flags potential risks, allowing for timely and targeted interventions that address issues before they escalate." },
-  { id: 2, backHeading: "Personalized Mentorship Programs", backSubheading: "Every student is unique, and so are their challenges. Ignis Mentis provides tailored mentorship programs that connect at-risk students with experienced mentors who understand their specific needs, offering guidance, encouragement, and strategies to overcome hurdles in their educational journey." },
-  { id: 3, backHeading: "Mental Health Support and Counseling", backSubheading: "Recognizing that mental health is a key factor in student success, Ignis Mentis offers confidential counseling and mental health resources. This includes access to professional counselors, self-help tools, and a supportive community, ensuring students feel heard, supported, and cared for." },
-  { id: 4, backHeading: "Graphical Student Journey Tracking", backSubheading: "The platform provides a visual representation of each student’s progress over time. By charting milestones, achievements, and risk factors, students, mentors, and educators gain valuable insights to make data-driven decisions and offer more meaningful support." },
-  { id: 5, backHeading: "Scholarship Guidance and Support", backSubheading: "Financial constraints are a major reason for dropouts. Ignis Mentis offers live updates on scholarship opportunities and assists students in applying for financial aid. This service aims to alleviate the financial burden and open pathways for continued education." },
-  { id: 6, backHeading: "AI-Powered Chatbot for 24/7 Support", backSubheading: "Students often need immediate assistance and guidance. Ignis Mentis features an AI-integrated chatbot capable of providing round-the-clock support. It can answer questions, direct students to resources, and provide emotional support through conversations tailored to their needs." },
-  { id: 7, backHeading: "Anonymity and Privacy in Interactions", backSubheading: "Respecting student privacy is paramount. Ignis Mentis ensures that all interactions, data collection, and communications are secure and anonymous. Students can freely seek help and access services without fear of exposure or judgment." },
-  { id: 8, backHeading: "Customized Learning and Skill Development Paths", backSubheading: "The platform offers personalized learning pathways to enhance skills, fill knowledge gaps, and build confidence. Students can engage in specialized training programs and workshops to catch up or excel, addressing specific learning needs that may contribute to dropout risk." },
-  { id: 9, backHeading: "Community and Peer Support Networks", backSubheading: "Ignis Mentis fosters a community where students can connect with peers facing similar challenges. Through forums, group chats, and collaborative activities, students find support, motivation, and a sense of belonging, reducing isolation and enhancing resilience." },
-  { id: 10, backHeading: "Predictive Insights for Educational Institutions", backSubheading: "Beyond individual support, Ignis Mentis offers predictive analytics tools for educational institutions. These insights help schools and colleges identify systemic issues contributing to dropouts and make data-driven policy changes to improve retention rates across the board." }  
-]
+
+    { id: 1, backHeading: "Early Dropout Risk Detection", backSubheading: "Uses ML to identify at-risk students early, enabling timely intervention." },
+    { id: 2, backHeading: "Personalized Mentorship Programs", backSubheading: "Connects students with mentors for tailored support and guidance." },
+    { id: 3, backHeading: "Mental Health Support and Counseling", backSubheading: "Offers confidential counseling and mental health resources." },
+    { id: 4, backHeading: "Graphical Student Journey Tracking", backSubheading: "Visualizes student progress and key milestones for data-driven support." },
+    { id: 5, backHeading: "Scholarship Guidance and Support", backSubheading: "Provides live scholarship updates and application assistance." },
+    { id: 6, backHeading: "AI-Powered Chatbot for 24/7 Support", backSubheading: "Offers instant, round-the-clock assistance tailored to student needs." },
+    { id: 7, backHeading: "Anonymity and Privacy in Interactions", backSubheading: "Ensures secure, anonymous interactions for student privacy." },
+    { id: 8, backHeading: "Customized Learning and Skill Development Paths", backSubheading: "Delivers personalized learning and skill enhancement programs." },
+    { id: 9, backHeading: "Community and Peer Support Networks", backSubheading: "Fosters peer connections and collaborative support systems." },
+    { id: 10, backHeading: "Predictive Insights for Educational Institutions", backSubheading: "Empowers institutions with data-driven dropout prevention insights." }
+
+  
+  // { id: 1, backHeading: "Lack of Innovation in Growth?", backSubheading: "We drive Growth through tech, data, and strategy." },
+  // { id: 2, backHeading: "Weak Brand Identity?", backSubheading: "We craft bold Branding with standout content." },
+  // { id: 3, backHeading: "Inefficient Operations?", backSubheading: "We optimize processes with streamlined Strategies." },
+  // { id: 4, backHeading: "Outdated Websites & Apps?", backSubheading: "We build modern, high-performance Websites and Apps." },
+  // { id: 5, backHeading: "Low Visual Appeal?", backSubheading: "We create stunning visuals with CGI and Animation." },
+  // { id: 6, backHeading: "Unclear Marketing Strategy?", backSubheading: "We design data-driven, result-focused Marketing plans." },
+  // { id: 7, backHeading: "Poor Data Utilization?", backSubheading: "We boost growth with AI and Data Analytics solutions." },
+  // { id: 8, backHeading: "Struggling to Scale in Competitive Markets?", backSubheading: "We Scale brands with innovative tech and insights." },
+  // { id: 9, backHeading: "Outdated Content?", backSubheading: "We refresh messaging with engaging, relevant Content." },
+  // { id: 10, backHeading: "Need All Services in One Place?", backSubheading: "We offer full-service solutions—from Branding to Technology." },
+
+]  
 
 export default function FlippableCards() {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -84,10 +88,10 @@ export default function FlippableCards() {
       <div className="hidden lg:block h-screen w-screen"></div>
       <div className="flex flex-col items-center justify-center min-h-screen p-4">
         <h1 className="text-4xl md:text-5xl font-bold mb-8 text-left md:text-center">
-          Struggling with Challenges in the <br /> Business Industry?
+          Struggling with Challenges in your <br /> university?
         </h1>
         <h1 className="text-2xl font-bold mb-12 text-left md:text-center">
-          <span className="text-blue-600 text-3xl">House of Marktech</span>{" "}
+          <span className="text-blue-600 text-3xl">IgnisMentis</span>{"  "}
           Delivers the Best Solutions to Overcome Every Obstacle.
         </h1>
 
