@@ -34,11 +34,11 @@ export default function Navbar({ mode }) {
   const navItems = [
     { name: "Home", href: "/" },
     { name: "About", href: "/about" },
-    { name: "Our Work", href: "/our-work" }, // Adjusted href to a valid route
+    // { name: "Our Work", href: "/our-work" }, // Adjusted href to a valid route
     { name: "Solutions", href: "/solutions" }, // Link to Solutions route
-    { name: "Blogs", href: "/blogs" }, // Link to Solutions route
+    // { name: "Blogs", href: "/blogs" }, // Link to Solutions route
     { name: "Case Study", href: "/case-study" },
-    { name: "Referral", href: "/referralpage" },
+    // { name: "Referral", href: "/referralpage" },
     { name: "Login", href: "/login" },
   ];
 
