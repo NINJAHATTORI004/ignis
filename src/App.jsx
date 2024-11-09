@@ -95,38 +95,38 @@ import Interior6 from "./assets/images/interior/DSC07909 4_6_11zon.jpg";
 // import InteriorV5 from "./assets/videos/interior/Reel 2.mp4";
 // import InteriorV6 from "./assets/videos/interior/Silverlake.mp4";
 
-import Wedding1 from "./assets/images/wedding/DSC00544.jpg";
-import Wedding2 from "./assets/images/wedding/DSC00560.jpg";
-import Wedding3 from "./assets/images/wedding/DSC00878.jpg";
-import Wedding4 from "./assets/images/wedding/DSC01135.jpg";
-import Wedding5 from "./assets/images/wedding/DSC01585.jpg";
-import Wedding6 from "./assets/images/wedding/DSC01590.jpg";
-import Wedding7 from "./assets/images/wedding/DSC01632.jpg";
-import Wedding8 from "./assets/images/wedding/DSC01635.jpg";
-import Wedding9 from "./assets/images/wedding/DSC03756.jpg";
-import Wedding10 from "./assets/images/wedding/DSC03931.jpg";
-import Wedding11 from "./assets/images/wedding/DSC04173.jpg";
-import Wedding12 from "./assets/images/wedding/DSC04175.jpg";
-import Wedding13 from "./assets/images/wedding/DSC04183.jpg";
-import Wedding14 from "./assets/images/wedding/DSC04195.jpg";
-import Wedding15 from "./assets/images/wedding/DSC04212.jpg";
-import Wedding16 from "./assets/images/wedding/DSC04217.jpg";
-import Wedding17 from "./assets/images/wedding/DSC04233.jpg";
-import Wedding18 from "./assets/images/wedding/DSC04237.jpg";
-import Wedding19 from "./assets/images/wedding/DSC04239.jpg";
-import Wedding20 from "./assets/images/wedding/DSC04272.jpg";
+// import Wedding1 from "./assets/images/wedding/DSC00544.jpg";
+// import Wedding2 from "./assets/images/wedding/DSC00560.jpg";
+// import Wedding3 from "./assets/images/wedding/DSC00878.jpg";
+// import Wedding4 from "./assets/images/wedding/DSC01135.jpg";
+// import Wedding5 from "./assets/images/wedding/DSC01585.jpg";
+// import Wedding6 from "./assets/images/wedding/DSC01590.jpg";
+// import Wedding7 from "./assets/images/wedding/DSC01632.jpg";
+// import Wedding8 from "./assets/images/wedding/DSC01635.jpg";
+// import Wedding9 from "./assets/images/wedding/DSC03756.jpg";
+// import Wedding10 from "./assets/images/wedding/DSC03931.jpg";
+// import Wedding11 from "./assets/images/wedding/DSC04173.jpg";
+// import Wedding12 from "./assets/images/wedding/DSC04175.jpg";
+// import Wedding13 from "./assets/images/wedding/DSC04183.jpg";
+// import Wedding14 from "./assets/images/wedding/DSC04195.jpg";
+// import Wedding15 from "./assets/images/wedding/DSC04212.jpg";
+// import Wedding16 from "./assets/images/wedding/DSC04217.jpg";
+// import Wedding17 from "./assets/images/wedding/DSC04233.jpg";
+// import Wedding18 from "./assets/images/wedding/DSC04237.jpg";
+// import Wedding19 from "./assets/images/wedding/DSC04239.jpg";
+//import Wedding20 from "./assets/images/wedding/DSC04272.jpg";
 
 
 
-import Lifestyle1 from "./assets/images/lifstyle/DJP06029-01.jpg";
-import Lifestyle2 from "./assets/images/lifstyle/DJP06048-01.jpg";
-import Lifestyle3 from "./assets/images/lifstyle/DJP06184-01.jpg";
-import Lifestyle4 from "./assets/images/lifstyle/DJP06186-01.jpg";
-import Lifestyle5 from "./assets/images/lifstyle/DJP06287 final 1-01.jpg";
-import Lifestyle6 from "./assets/images/lifstyle/DJP06290 final 1-01.jpg";
-import Lifestyle7 from "./assets/images/lifstyle/DJP06334 final 1-01 copy.jpg";
-import Lifestyle8 from "./assets/images/lifstyle/DJP06354 final 1-01.jpg";
-import Lifestyle9 from "./assets/images/lifstyle/DJP06289 final 1-01.jpg";
+//import Lifestyle1 from "./assets/images/lifstyle/DJP06029-01.jpg";
+//import Lifestyle2 from "./assets/images/lifstyle/DJP06048-01.jpg";
+//import Lifestyle3 from "./assets/images/lifstyle/DJP06184-01.jpg";
+//import Lifestyle4 from "./assets/images/lifstyle/DJP06186-01.jpg";
+//import Lifestyle5 from "./assets/images/lifstyle/DJP06287 final 1-01.jpg";
+//import Lifestyle6 from "./assets/images/lifstyle/DJP06290 final 1-01.jpg";
+//import Lifestyle7 from "./assets/images/lifstyle/DJP06334 final 1-01 copy.jpg";
+//import Lifestyle8 from "./assets/images/lifstyle/DJP06354 final 1-01.jpg";
+//import Lifestyle9 from "./assets/images/lifstyle/DJP06289 final 1-01.jpg";
 
 
 // import HospitalityV3 from "./assets/videos/hospitality/Raddison Making reel 1.mp4";
