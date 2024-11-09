@@ -71,7 +71,7 @@ const Front2 = () => {
           </h4>
           {/* Responsive text size */}
           <p className="text-sm md:text-lg leading-relaxed text-white">
-            At Ignis Mentis, we blend cutting-edge AI technology and compassionate human support to empower at-risk students. By delivering personalized solutions, mental health support, and strategic mentorship, we transform educational journeys and inspire lifelong success.
+            At IgnisMentis, we blend cutting-edge AI technology and compassionate human support to empower at-risk students. By delivering personalized solutions, mental health support, and strategic mentorship, we transform educational journeys and inspire lifelong success.
           </p>
         </div>
       </div>

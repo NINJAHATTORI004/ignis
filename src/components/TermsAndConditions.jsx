@@ -15,7 +15,7 @@ const TermsAndConditions = () => {
         <p>Effective Date: October 7, 2024</p>
         
         <p>
-        Welcome to Ignis Mentis. By accessing our website and utilizing our services, you agree to comply with and be bound by the following terms and conditions ("Terms"). If you do not agree with any part of these Terms, please do not use our services.
+        Welcome to IgnisMentis. By accessing our website and utilizing our services, you agree to comply with and be bound by the following terms and conditions ("Terms"). If you do not agree with any part of these Terms, please do not use our services.
         </p>
 
         <h2><strong>1. Acceptance of Terms</strong></h2>

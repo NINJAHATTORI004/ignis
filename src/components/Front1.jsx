@@ -73,7 +73,7 @@ const Front1 = () => {
           </h4>
           {/* Responsive text size */}
           <p className="text-sm md:text-lg leading-relaxed text-white">
-            Ignis Mentis combines AI-driven insights and mental health support to guide at-risk students. From personalized learning paths and mentorship to data-driven dropout prevention models, we transform educational outcomes with compassion and innovation.
+            IgnisMentis combines AI-driven insights and mental health support to guide at-risk students. From personalized learning paths and mentorship to data-driven dropout prevention models, we transform educational outcomes with compassion and innovation.
           </p>
         </div>
       </div>
