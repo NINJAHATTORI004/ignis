@@ -15,7 +15,7 @@ app.use(cors());
 const connectDB = () => {
   mongoose
     .connect(
-      "mongodb+srv://marketing:MtH086urjhOrh7pc@cluster0.r7lan.mongodb.net/talk-to-us",
+      "mongodb+srv://akshat200414:4mqxQiyKIZHrtFeP@cluster0.zk5mm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
       {
         dbName: "talk-to-us",
         useNewUrlParser: true,
