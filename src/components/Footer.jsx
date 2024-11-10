@@ -180,30 +180,16 @@ export default function Footer({ mode = "dark", next }) {
                 </p>
                 <p className="text-md">
                   <Link to="mailto:Marketing@houseofmarktech.com">
-                    Marketing@houseofmarktech.com
+                    anshmittal132@gmail.com
                   </Link>
                 </p>
               </div>
 
-              <div className="flex gap-2 py-2">
-                <p className="text-2xl">
-                  <Link to="https://wa.me/9773989305">
-                    <FaWhatsapp />
-                  </Link>
-                </p>
-                <p className="text-md">
-                  <Link to="https://wa.me/9773989305">+91 9773989305</Link>
-                </p>
-              </div>
+     
 
               <div className="flex gap-2 py-2">
                 <p>
-                  <Link to="tel:8287108009">
-                    <Phone />
-                  </Link>
-                </p>{" "}
-                <p>
-                  <Link to="tel:8287108009">+91 8287108009</Link>
+                  <Link to="tel:9811359821">+91 9811359821</Link>
                 </p>
               </div>
             </div>
@@ -222,11 +208,7 @@ export default function Footer({ mode = "dark", next }) {
                   Privacy Policy
                 </Link>
               </li>
-              <li>
-                <Link to="/cancellationPage" className="flex items-center">
-                  Cancellation Policy
-                </Link>
-              </li>
+          
               <li>
                 <Link to={"/frequently-asked-questions"} className="">
                   Frequently Asked Questions
@@ -277,21 +259,11 @@ export default function Footer({ mode = "dark", next }) {
               </div>
             </form>
             <div className="mt-6 flex flex-col">
-              <Link to={"/blogs"} className="my-2 font-semibold">
-                Blogs
-              </Link>
+             
               <Link to={"/case-study"} className="my-2 font-semibold">
                 Case Studies
               </Link>
-              {/* <p className='my-2 font-semibold'>Case Studies</p> */}
-              <a
-                href="http://localhost/referralPage/"
-                className="my-2 font-semibold"
-              >
-                Referral Program
-              </a>
-
-              <p className="my-2 font-semibold">ER Calculator</p>
+            
 
               {/* <Link to={"/blogs"} className="my-2 font-semibold">
                 Blogs
