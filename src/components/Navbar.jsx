@@ -38,8 +38,9 @@ export default function Navbar({ mode }) {
     { name: "Features", href: "/solutions" }, // Link to Solutions route
     // { name: "Blogs", href: "/blogs" }, // Link to Solutions route
     { name: "Case Study", href: "/case-study" },
-    // { name: "Referral", href: "/referralpage" },
+    { name: "Form", href: "/form" },
     { name: "Login", href: "/login" },
+    
   ];
 
   const handleButtonClick = () => {
