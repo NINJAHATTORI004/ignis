@@ -224,9 +224,7 @@ export default function Footer({ mode = "dark", next }) {
           </div>
 
           <div>
-            <h2 className="text-4xl font-semibold mb-6">
-              Subscribe to our newsletter
-            </h2>
+          
             <form onSubmit={handleSubmit} className="space-y-4">
               <div className="relative">
                 <input

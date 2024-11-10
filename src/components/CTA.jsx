@@ -117,11 +117,11 @@ const CTA = () => {
 
                 <div className="flex flex-col-reverse lg:flex-row items-center justify-evenly gap-8">
 
-                    {/* <motion.div ref={videoRef} className={`relative hidden lg:block w-full lg:w-1/3 h-60 lg:h-64 transition-all ${isExpanded ? 'md:fixed md:right-4 md:top-1/4 md:w-[45%]' : ''}`} style={{ scale,y, x, }}>
-                        <video autoPlay controls muted loop src={'https://res.cloudinary.com/dgikemsx7/video/upload/f_auto:video,q_auto/dtszyjatr1nndcfmjvsc'} className='w-full h-full rounded-xl object-cover'></video>
-                    </motion.div> */}
+                    <motion.div ref={videoRef} className={`relative hidden lg:block w-full lg:w-1/3 h-60 lg:h-64 transition-all ${isExpanded ? 'md:fixed md:right-4 md:top-1/4 md:w-[45%]' : ''}`} style={{ scale,y, x, }}>
+                        <video autoPlay controls muted loop src={'https://res.cloudinary.com/ddxdrfr2c/video/upload/f_auto:video,q_auto/v1731215824/Untitled_video_-_Made_with_Clipchamp_3_cy7ord.mp4'} className='w-full h-full rounded-xl object-cover'></video>
+                    </motion.div>
                     <div  className='w-full lg:w-1/3 h-60 md:h-72 lg:h-64 flex lg:hidden'>
-                        <video autoPlay controls muted loop src={'https://res.cloudinary.com/dgikemsx7/video/upload/f_auto:video,q_auto/dtszyjatr1nndcfmjvsc'} className='w-full h-full rounded-xl object-cover'></video>
+                        <video autoPlay controls muted loop src={'https://res.cloudinary.com/ddxdrfr2c/video/upload/f_auto:video,q_auto/v1731215824/Untitled_video_-_Made_with_Clipchamp_3_cy7ord.mp4'} className='w-full h-full rounded-xl object-cover'></video>
                     </div>
 
 

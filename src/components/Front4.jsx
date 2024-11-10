@@ -78,7 +78,7 @@ const Front4 = () => {
       <div className="h-[60vh] w-full">
         <video
           className="object-cover w-full h-full"
-          src="https://res.cloudinary.com/dgikemsx7/video/upload/f_auto:video,q_auto/v1/About%20us/boynswcxelkai09hcz6x"
+          src="https://res.cloudinary.com/ddxdrfr2c/video/upload/f_auto:video,q_auto/v1731217192/116494-708388336_ta1h7t.mp4"
           alt="Ignis Mentis mission and vision video"
           autoPlay
           muted
