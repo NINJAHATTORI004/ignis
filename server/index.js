@@ -77,8 +77,8 @@ app.post("/talkExpertForm", function (req, res) {
 const transporter = nodemailer.createTransport({
   service: "gmail",
   auth: {
-    user: "marketing@houseofmarktech.com", // Replace with your email
-    pass: "qipw jimu taij lthn", // Replace with your email password
+    user: "0221csds100@gmail.com", // Replace with your email
+    pass: "oktd oaqg kkae qoey", // Replace with your email password
   },
 });
 const publicUserSchema = new mongoose.Schema({
@@ -94,11 +94,11 @@ app.post("/subscribe", async (req, res, next) => {
   console.log("user email", email);
   try {
     await transporter.sendMail({
-      from: '"House of Marktech" <marketing@houseofmarktech.com>',
+      from: '"IgnisMentis" <0221csds100@gmail.com>',
       to: email,
       subject: "Subscription Confirmation ",
-      text: "Welcome to HOM, Thank you for subscribing, We're honoured to have you on board.",
-      html: "<b>Welcome to HOM, Thank you for subscribing, We're honoured to have you on board.</b>",
+      text: "Welcome to IgnisMentis, Thank you for subscribing, We're honoured to have you on board.",
+      html: "<b>Welcome to IgnisMentis, Thank you for subscribing, We're honoured to have you on board.</b>",
     });
     let user = await publicUser.findOne({
       UserEmail: email,
