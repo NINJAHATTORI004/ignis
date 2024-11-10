@@ -27,9 +27,11 @@ import CorporateIdentityDecks from "/src/components/solutions/allBubbles/Corpora
 import Home from "./pages/Home";
 import About from "./pages/About";
 import OurWork from "./pages/OurWork";
+import form from "./pages/form";
 import SolutionsPage from "./components/solutions/SolutionsPage";
 // import BubblePage from "./components/solutions/page/Bubblepage";
 import CareersPage from "./components/solutions/page/CareersPage";
+
 
 // import Blog from "./pages/Blog";
 // import BlogHome from "./components/BlogHome";
@@ -61,8 +63,7 @@ import Register from "./components/Register";
 import ForgotPassword from "./components/ForgotPassword";
 import CompleteRegister from "./components/CompleteRegister";
 import PrivateRoutes from "./utils/PrivateRoutes";
-// import TrademarkAndIP from './components/solutions/allBubbles/TrademarkAndIP';
-// import CorporateIdentityDecks from './components/solutions/allBubbles/CorporateIdentityDecks';
+
 
 import FAQ from "./FAQ's/FAQ";
 import Blog1 from "./blogs/Blog1";
@@ -80,6 +81,12 @@ import Page3 from "./components/casestudy/casestudypages/page3";
 import Page4 from "./components/casestudy/casestudypages/page4";
 import Page5 from "./components/casestudy/casestudypages/page5";
 import ReferralPage from "./pages/ReferralPage";
+
+
+
+
+// import AutomobilesV3 from "./assets/videos/automobiles/3199733625792534602_62038889906.mp4";
+// import AutomobilesV4 from "./assets/videos/automobiles/3359039713419070844_62038889906.mp4";
 
 function App() {
   const { user } = useAuth0();
