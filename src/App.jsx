@@ -166,26 +166,11 @@ function App() {
             element={
               <Gallery
                 Title="Hospitality"
-                // images={[
-                //   Lifestyle2,
-                //   Lifestyle3,
-                //   Lifestyle4,
-                //   Lifestyle5,
-                //   Lifestyle6,
-                //   Lifestyle7,
-                //   Lifestyle8,
-                //   Lifestyle9,
-                // ]}
+            
                 videos={[
                   'https://res.cloudinary.com/dgikemsx7/video/upload/f_auto:video,q_auto/v1/hospitality/j9jpg2fwuossxnry2j52',
                   'https://res.cloudinary.com/dgikemsx7/video/upload/f_auto:video,q_auto/fnb3nkpclz1hjk3rvitu'
-                  // HospitalityV2,
-                  // HospitalityV3,
-                  // HospitalityV4,
-                  // HospitalityV5,
-                  // HospitalityV6,
-                  // HospitalityV7,
-                  // HospitalityV8,
+        
                 ]}
                 banner={['https://res.cloudinary.com/dgikemsx7/video/upload/f_auto:video,q_auto/v1/hospitality/j9jpg2fwuossxnry2j52']}
               />
@@ -197,21 +182,13 @@ function App() {
               <Gallery
                 Title="Automobiles"
                 images={[
-                  // Automobiles,
-                  // Interior2,
-                  // Interior3,
-                  // Interior4,
-                  // Interior5,
-                  // Interior6,
+              
                 ]}
                 videos={[
                   'https://res.cloudinary.com/dgikemsx7/video/upload/f_auto:video,q_auto/v1/kuldepp%20new/dmyuxeybo8unkvzforit',
                   'https://res.cloudinary.com/dgikemsx7/video/upload/f_auto:video,q_auto/v1/kuldepp%20new/wnzsxiz3wd5sgbfpnrgf',
                   'https://res.cloudinary.com/dgikemsx7/video/upload/f_auto:video,q_auto/v1/kuldepp%20new/z4t4scsfvcqylczcwcfg'
-                  // AutomobilesV3,
-                  // AutomobilesV4,
-                  // AutomobilesV5,
-                  // AutomobilesV6,
+                  
                 ]}
                 banner={['https://res.cloudinary.com/dgikemsx7/video/upload/f_auto:video,q_auto/v1/kuldepp%20new/dmyuxeybo8unkvzforit']}
               />
@@ -223,26 +200,7 @@ function App() {
               <Gallery
                 Title="Wedding"
                 images={[
-                  // Wedding1,
-                  // Wedding2,
-                  // // Wedding3,
-                  // Wedding4,
-                  // Wedding5,
-                  // // Wedding6,
-                  // Wedding7,
-                  // // Wedding8,
-                  // Wedding9,
-                  // Wedding10,
-                  // // Wedding11,
-                  // // Wedding12,
-                  // // Wedding13,
-                  // Wedding14,
-                  // Wedding15,
-                  // // Wedding16,
-                  // // Wedding17,
-                  // // Wedding18,
-                  // // Wedding19,
-                  // Wedding20,
+                
                 ]}
                 videos={['https://res.cloudinary.com/dgikemsx7/video/upload/f_auto:video,q_auto/v1/wedding/dl1yefmtysj5vhdk2cp9', 'https://res.cloudinary.com/dgikemsx7/video/upload/f_auto:video,q_auto/v1/wedding/vncla7nbeoy8xkejcgy1']}
                 banner={['https://res.cloudinary.com/dgikemsx7/video/upload/f_auto:video,q_auto/v1/wedding/dl1yefmtysj5vhdk2cp9']}

@@ -23,7 +23,7 @@ const About = () => {
       {/* <Social /> */}
       {/* <AboutFooter /> */}
       <FoundingTeam />
-      <Footer next="OurWork" />
+      <Footer mode="dark" next="Solutions" />
     </div>
   );
 };

@@ -50,7 +50,7 @@ export default function Navbar({ mode }) {
     <nav className={`py-8 px-6 md:px-12 md:py-4  flex justify-between items-center w-full fixed top-0 z-50 transition-all duration-300 ${isScrolled?'bg-transparent ':' lg:bg-black lg:bg-opacity-50'}`}>
       {/* Logo */}
       <Link to={"/"} className={` ${isScrolled ? "opacity-0" : ""}`}>
-        <img src={logo} className="h-12 rounded-sm " alt="" />
+        <img src={logo} className="h-20 rounded-sm " alt="" />
       </Link>
       {/* Right-side buttons */}
       <div className="hidden lg:flex items-center space-x-4">

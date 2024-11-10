@@ -6,17 +6,6 @@ import image from "../../assets/images/arrow.png";
 import Modal from "./page/Modal";
 import BubbleGrid from "./page/BubbleGrid";
 
-// const names = [
-//   "Design",
-//   "Development",
-//   "Marketing",
-//   "Design",
-//   "Development",
-//   "Marketing",
-//   "Design",
-//   "Development",
-//   "Marketing",
-// ];
 
 const SolutionsHome = () => {
   useEffect(() => {
@@ -44,15 +33,7 @@ const SolutionsHome = () => {
 
   return (
     <div className="min-h-screen flex flex-col bg-gradient-to-b from-gray-900 to-black text-white">
-      <video 
-      src={'https://res.cloudinary.com/dgikemsx7/video/upload/f_auto:video,q_auto/m6i07frirsfyan7oy9zx '} 
-      loop
-      autoPlay
-      controls
-      className="flex flex-col items-center justify-center min-h-screen w-full  ">
-        {/* Title Section */}
-        
-      </video>
+
 
       <BubbleGrid />
 
