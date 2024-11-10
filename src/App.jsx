@@ -80,7 +80,7 @@ import Page3 from "./components/casestudy/casestudypages/page3";
 import Page4 from "./components/casestudy/casestudypages/page4";
 import Page5 from "./components/casestudy/casestudypages/page5";
 import ReferralPage from "./pages/ReferralPage";
-import from from "./pages/form";
+import form from "./pages/form";
 
 // import Interior1 from "./assets/images/interior/DSC07818 copy_1_11zon.jpg";
 // import Interior2 from "./assets/images/interior/DSC07904 copy_2_11zon.jpg";
