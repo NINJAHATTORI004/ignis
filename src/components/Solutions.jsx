@@ -161,7 +161,7 @@ export default function FlippableCards() {
             onClick={() => setIsModalOpen(true)}
             style={{ fontFamily: "Montserrat, sans-serif" }}
           >
-            Get a Proposal
+            Know More
           </button>
         </div>
       </div>
