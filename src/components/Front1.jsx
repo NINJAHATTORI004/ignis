@@ -80,7 +80,7 @@ const Front1 = () => {
       {/* Second Section: 60vh */}
       <div className="h-[60vh] w-full">
         <video
-          src="https://res.cloudinary.com/dgikemsx7/video/upload/f_auto:video,q_auto/v1/About%20us/szojhxredcg1agk6ogaj" // Replace with the actual video path
+          src="https://res.cloudinary.com/ddxdrfr2c/video/upload/f_auto:video,q_auto/v1731217941/IMG_4192_nam0oq.mp4" // Replace with the actual video path
           alt="Description of video" // Provide a description for accessibility
           className="object-cover w-full h-full"
           // Add controls for play/pause
