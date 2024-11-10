@@ -93,7 +93,7 @@ const CTA = () => {
                     transition={{ duration: 0.6 }}
                     className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-semibold lg:ml-8 pb-4"
                 >
-                    Marketing Ignites,
+                    Empowering Minds,
                 </motion.div>
 
                 <motion.div
@@ -102,7 +102,7 @@ const CTA = () => {
                     transition={{ duration: 0.6, delay: 0.2 }}
                     className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-semibold lg:ml-8 pb-4"
                 >
-                    Technology Transforms,
+                    Guiding Academics,
                 </motion.div>
 
                 <motion.div
@@ -111,15 +111,15 @@ const CTA = () => {
                     transition={{ duration: 0.6, delay: 0.4 }}
                     className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-semibold lg:ml-8 pb-4"
                 >
-                    Sales Soar!
+                    Supporting Growth!
                 </motion.div>
                 </div>
 
                 <div className="flex flex-col-reverse lg:flex-row items-center justify-evenly gap-8">
 
-                    <motion.div ref={videoRef} className={`relative hidden lg:block w-full lg:w-1/3 h-60 lg:h-64 transition-all ${isExpanded ? 'md:fixed md:right-4 md:top-1/4 md:w-[45%]' : ''}`} style={{ scale,y, x, }}>
+                    {/* <motion.div ref={videoRef} className={`relative hidden lg:block w-full lg:w-1/3 h-60 lg:h-64 transition-all ${isExpanded ? 'md:fixed md:right-4 md:top-1/4 md:w-[45%]' : ''}`} style={{ scale,y, x, }}>
                         <video autoPlay controls muted loop src={'https://res.cloudinary.com/dgikemsx7/video/upload/f_auto:video,q_auto/dtszyjatr1nndcfmjvsc'} className='w-full h-full rounded-xl object-cover'></video>
-                    </motion.div>
+                    </motion.div> */}
                     <div  className='w-full lg:w-1/3 h-60 md:h-72 lg:h-64 flex lg:hidden'>
                         <video autoPlay controls muted loop src={'https://res.cloudinary.com/dgikemsx7/video/upload/f_auto:video,q_auto/dtszyjatr1nndcfmjvsc'} className='w-full h-full rounded-xl object-cover'></video>
                     </div>
@@ -127,7 +127,7 @@ const CTA = () => {
 
                     <div className="w-full lg:w-1/3 ">
                         <div className="text-lg leading-relaxed text-gray-800 font-semibold mb-8 lg:-mt-20">
-                        We ignite your ideas with creative marketing, bring them to life with cutting-edge technology, and propel your success with exceptional sales. Ready to transform your vision into reality? Let’s achieve greatness together!
+                        Our AI-driven chatbot offers personalized support in mental health and academics, providing guidance and resources to empower well-being and drive success. Join us in nurturing both mind and future.
                         </div>
                         <Link to='/about' className="px-8 py-3 rounded-full  text-white bg-blue-700 hover:bg-black font-bold transition-all duration-500">
                             About Us

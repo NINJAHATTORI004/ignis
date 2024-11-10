@@ -5,35 +5,31 @@ import BubbleComponent from "../../solutions/page/BubbleComponent";
 const Page5 = () => {
   const Page5Data = {
     discovery: {
-      name: "HomesunNature: Eco-friendly Solutions for Sustainable Living",
-      title: "Client Overview & Challenges",
-      description: `
-        HomesunNature is a brand dedicated to promoting eco-friendly products in India, including organic textiles, biodegradable packaging, and natural personal care items. Despite a strong mission, they faced several challenges: limited online presence, suboptimal e-commerce platform, and difficulty engaging customers in a highly competitive market.
+      name: "AI-Based Cognitive Assistance for Reducing Workplace Stress and Mental Fatigue",
+      title:"Background",
+      description:`
+        A multinational corporation observed rising levels of cognitive fatigue and burnout among employees, particularly in high-stress roles like customer service and project management. The company partnered with a health tech firm to explore how AI could help reduce cognitive strain in the workplace.
       `,
     },
     creation: {
-      name: "Solutions: Enhancing Digital Presence & Engagement",
-      title: "Strategic Solutions for a Growing Brand",
-      description: `
-        House of Marktech provided tailored solutions to HomesunNature, including:
-        - Development of a responsive e-commerce platform using Shopify.
-        - Comprehensive SEO audit and strategy implementation to improve search engine visibility.
-        - Digital marketing campaigns on social media, email marketing, and content creation that reflected the brand’s sustainability commitment.
+      name:"AI Solution: Wysa, the AI-Powered Mental Health Chatbot",
+      title:"Solution Overview",
+      description:`
+        The organization introduced Wysa, an AI-powered mental health app designed to provide personalized support for individuals experiencing stress and fatigue. Wysa uses Cognitive Behavioral Therapy techniques, mindfulness practices, and stress-level assessment to aid employees in managing their stress and cognitive fatigue.
       `,
     },
     activation: {
-      name: "Results: A Sustainable Growth Story",
-      title: "Measuring Impact and Success",
+      name:"Results: Enhanced Employee Well-being and Productivity",
+      title:"Outcomes and Impact",
       description: `
-        The implemented strategies resulted in impressive growth:
-        - A 300% increase in social media followers.
-        - A 200% increase in online sales within the first quarter post-launch.
-        - Increased engagement through email marketing with a 45% open rate.
-        HomesunNature successfully positioned itself as a leader in the eco-friendly market with a solidified online presence and loyal customer base.
+        After three months, significant improvements were observed:
+        - A 40% reduction in cognitive fatigue among regular users.
+        - A 15% increase in productivity in high-stress roles.
+        - Improved engagement, with 70% of users reporting a positive impact on their work environment and stress levels.
       `,
     },
   };
-
+       
   return (
     <div>
       <Navbar />

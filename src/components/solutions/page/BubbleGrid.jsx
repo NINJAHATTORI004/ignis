@@ -5,20 +5,31 @@ import { Link } from "react-router-dom"; // Import Link for routing
 const BubbleGrid = () => {
   // Create an array of objects containing names and their respective routes
   const bubbleData = [
-    { name: "Branding", path: "/branding" },
-    { name: "Content Creation", path: "/content_creation" },
-    { name: "Social Media", path: "/social_media" },
-    { name: "PR Outreach", path: "/pr_outreach" },
-    { name: "Consultation", path: "/consultation" },
-    { name: "Strategy", path: "/strategy" },
-    { name: "Website & App Development", path: "/website_and_app_development" },
-    {
-      name: "Visual Effects, Animation, & CGI Services",
-      path: "/visual_effects_animation_and_cgi_services",
-    },
-    { name: "Pre-Wedding Cinematics", path: "/pre_wedding_cinematics" },
-    { name: "Trademark and IP", path: "/trademarkandip" },
-    { name: "Corporate Identity Decks", path: "/corporateid" },
+    // { name: "Branding", path: "/branding" },
+    // { name: "Content Creation", path: "/content_creation" },
+    // { name: "Social Media", path: "/social_media" },
+    // { name: "PR Outreach", path: "/pr_outreach" },
+    // { name: "Consultation", path: "/consultation" },
+    // { name: "Strategy", path: "/strategy" },
+    // { name: "Website & App Development", path: "/website_and_app_development" },
+    // {
+    //   name: "Visual Effects, Animation, & CGI Services",
+    //   path: "/visual_effects_animation_and_cgi_services",
+    // },
+    // { name: "Pre-Wedding Cinematics", path: "/pre_wedding_cinematics" },
+    // { name: "Trademark and IP", path: "/trademarkandip" },
+    // { name: "Corporate Identity Decks", path: "/corporateid" },
+    { name: "AI Chatbot Support" },
+{ name: "Dropout Predictor" },
+{ name: "Personalized Plans" },
+{ name: "Privacy Focused" },
+{ name: "Real-Time Alerts" },
+{ name: "Mental Health Aid" },
+{ name: "Academic Advice" },
+{ name: "Scholarship Updates" },
+{ name: "Mentor Connect" },
+{ name: "Journey Tracker" },
+{ name: "Data-Driven Insights" },
   ];
 
 

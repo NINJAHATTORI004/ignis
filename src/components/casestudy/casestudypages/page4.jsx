@@ -5,35 +5,25 @@ import BubbleComponent from "../../solutions/page/BubbleComponent";
 const Page4 = () => {
   const Page4Data = {
     discovery: {
-      name: "From Limited Visibility to Legal Powerhouse",
-      title: "Client Overview & Challenges",
+      name: "Emma's University Journey",
+      title:  "Client Overview & Challenges",
       description: `
-        Justispherex Legal is a prominent legal service provider specializing in intellectual property law, including trademarks, copyrights, patents, and design services. Despite offering comprehensive legal support, Justispherex Legal faced challenges in reaching potential clients and enhancing its online presence. These challenges included a limited online presence, ineffective lead generation strategies, and a need for improved brand awareness in the digital space.
-      `,
+      Emma is a second-year student at a prestigious university, majoring in biology with aspirations to go to medical school. Although she excelled in high school, she now faces challenges balancing her coursework, work commitments, and personal life. This case study highlights key issues Emma encounters, including academic pressures, financial constraints, social and peer pressures, and mental health struggles.
+    `,
     },
     creation: {
-      name: "Strategy Implementation: Building a Strong Digital Presence",
+      name:"Coping Mechanisms and Support Systems",
       title: "Comprehensive Solutions for Growth",
-      description: `
-        To overcome these challenges, we developed a multi-pronged strategy for Justispherex Legal:
-        - Website Development: Created a modern, user-friendly WordPress website featuring essential pages like Home, About Us, Services, Careers, and a disclaimer page.
-        - Search Engine Optimization (SEO): Conducted an SEO audit and optimized content for search engine visibility.
-        - Social Media Strategy: Established anonymous Instagram and LinkedIn pages, along with a content calendar for regular postings and targeted ad campaigns.
-        - Content Development: Produced blogs and articles on intellectual property law to drive website traffic and establish the firm as an authority.
-        - Lead Generation Campaigns: Implemented targeted online advertising and optimized landing pages for lead conversion.
-      `,
+      description:  `
+      After a particularly challenging semester, Emma recognized her situation was unsustainable and reached out for help. She utilized university counseling services, learning coping strategies like setting realistic academic goals, time management, and mindfulness. Joining a peer support group also helped her feel less isolated. Emma adjusted her work hours and set boundaries, leading to better balance in her academic and personal life.
+    `,
     },
     activation: {
-      name: "Results: A Legal Firm’s Digital Transformation",
+      name: "Outcome: Personal Growth and Resilience",
       title: "Measuring Success through Metrics",
-      description: `
-        The comprehensive strategy led to significant results for Justispherex Legal:
-        - A 200% increase in website traffic within three months.
-        - A 150% increase in qualified leads generated during the first quarter.
-        - Enhanced brand awareness with a 300% growth in social media followers.
-        - Established authority in intellectual property law through increased inquiries and consultations.
-        This transformation showcases how a well-rounded digital strategy can drive substantial growth for legal service providers.
-      `,
+      description:  `
+      With ongoing support, Emma successfully balanced her studies and personal life. Although pressures persisted, she grew more resilient and self-compassionate, recognizing that asking for help is a strength, not a weakness. Emma’s experience underscores the importance of mental health resources, financial aid, and peer support networks in empowering students to manage university-related stress effectively.
+    `,
     },
   };
 

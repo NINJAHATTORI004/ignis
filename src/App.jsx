@@ -81,12 +81,12 @@ import Page4 from "./components/casestudy/casestudypages/page4";
 import Page5 from "./components/casestudy/casestudypages/page5";
 import ReferralPage from "./pages/ReferralPage";
 
-import Interior1 from "./assets/images/interior/DSC07818 copy_1_11zon.jpg";
-import Interior2 from "./assets/images/interior/DSC07904 copy_2_11zon.jpg";
-import Interior3 from "./assets/images/interior/DSC07909 0_3_11zon.jpg";
-import Interior4 from "./assets/images/interior/DSC07909 2_4_11zon.jpg";
-import Interior5 from "./assets/images/interior/DSC07909 3_5_11zon.jpg";
-import Interior6 from "./assets/images/interior/DSC07909 4_6_11zon.jpg";
+// import Interior1 from "./assets/images/interior/DSC07818 copy_1_11zon.jpg";
+// import Interior2 from "./assets/images/interior/DSC07904 copy_2_11zon.jpg";
+// import Interior3 from "./assets/images/interior/DSC07909 0_3_11zon.jpg";
+// import Interior4 from "./assets/images/interior/DSC07909 2_4_11zon.jpg";
+// import Interior5 from "./assets/images/interior/DSC07909 3_5_11zon.jpg";
+// import Interior6 from "./assets/images/interior/DSC07909 4_6_11zon.jpg";
 
 
 // import InteriorV2 from "./assets/videos/interior/Coprate Gifting.mp4";
@@ -118,7 +118,7 @@ import Interior6 from "./assets/images/interior/DSC07909 4_6_11zon.jpg";
 
 
 
-//import Lifestyle1 from "./assets/images/lifstyle/DJP06029-01.jpg";
+// import Lifestyle1 from "./assets/images/lifstyle/DJP06029-01.jpg";
 //import Lifestyle2 from "./assets/images/lifstyle/DJP06048-01.jpg";
 //import Lifestyle3 from "./assets/images/lifstyle/DJP06184-01.jpg";
 //import Lifestyle4 from "./assets/images/lifstyle/DJP06186-01.jpg";
@@ -152,16 +152,16 @@ import Interior6 from "./assets/images/interior/DSC07909 4_6_11zon.jpg";
 // import Fitness14 from "./assets/images/fitness/SUNNY FIT 4.jpg";
 // import Fitness15 from "./assets/images/fitness/SUNNY FIT 5.jpg";
 
-import Editorial1 from "./assets/images/editorial/DSC01852 copy.jpg"; // 1
-import Editorial2 from "./assets/images/editorial/DSC01853 copy.jpg"; // 2
-import Editorial3 from "./assets/images/editorial/DSC01867 copy.jpg"; // 3
-import Editorial4 from "./assets/images/editorial/DSC01875 copy.jpg"; // 4
-import Editorial5 from "./assets/images/editorial/DSC01905 copy.jpg"; // 5
-import Editorial6 from "./assets/images/editorial/DSC01924 copy.jpg"; // 6
-import Editorial7 from "./assets/images/editorial/DSC01927 copy.jpg"; // 7
-import Editorial8 from "./assets/images/editorial/DSC01935 copy.jpg"; // 8
-import Editorial9 from "./assets/images/editorial/DSC01947 copy.jpg"; // 9
-import Editorial10 from "./assets/images/editorial/DSC02074 copy.jpg"; // 10
+// import Editorial1 from "./assets/images/editorial/DSC01852 copy.jpg"; // 1
+// import Editorial2 from "./assets/images/editorial/DSC01853 copy.jpg"; // 2
+// import Editorial3 from "./assets/images/editorial/DSC01867 copy.jpg"; // 3
+// import Editorial4 from "./assets/images/editorial/DSC01875 copy.jpg"; // 4
+// import Editorial5 from "./assets/images/editorial/DSC01905 copy.jpg"; // 5
+// import Editorial6 from "./assets/images/editorial/DSC01924 copy.jpg"; // 6
+// import Editorial7 from "./assets/images/editorial/DSC01927 copy.jpg"; // 7
+// import Editorial8 from "./assets/images/editorial/DSC01935 copy.jpg"; // 8
+// import Editorial9 from "./assets/images/editorial/DSC01947 copy.jpg"; // 9
+// import Editorial10 from "./assets/images/editorial/DSC02074 copy.jpg"; // 10
 // import Editorial11 from "./assets/images/editorial/DSC02077 copy.jpg"; // 11
 // import Editorial12 from "./assets/images/editorial/DSC02080 copy.jpg"; // 12
 // import Editorial13 from "./assets/images/editorial/DSC02082 copy.jpg"; // 13
@@ -220,12 +220,12 @@ function App() {
               <Gallery
                 Title="Interior"
                 images={[
-                  Interior1,
-                  Interior2,
-                  Interior3,
-                  Interior4,
-                  Interior5,
-                  Interior6,
+                  // Interior1,
+                  // Interior2,
+                  // Interior3,
+                  // Interior4,
+                  // Interior5,
+                  // Interior6,
                 ]}
                 videos={[
                   'https://res.cloudinary.com/dgikemsx7/video/upload/f_auto:video,q_auto/v1/interior/zgrmtkrjaef0wjfxhd65',
@@ -247,20 +247,20 @@ function App() {
               <Gallery
                 Title="Fashion"
                 images={[
-                  // Editorial1,
-                  Editorial2,
-                  Editorial3,
-                  Editorial4,
-                  // Editorial5,
+                  // // Editorial1,
+                  // Editorial2,
+                  // Editorial3,
+                  // Editorial4,
+                  // // Editorial5,
 
-                  // Editorial6,
+                  // // Editorial6,
 
-                  // Editorial7,
+                  // // Editorial7,
 
-                  Editorial8,
+                  // Editorial8,
 
-                  Editorial9,
-                  Editorial10,
+                  // Editorial9,
+                  // Editorial10,
                 ]}
                 videos={[
                   'https://res.cloudinary.com/dgikemsx7/video/upload/f_auto:video,q_auto/v1/fashion/vqjzvlajz2uymal2wrgf',
@@ -279,17 +279,16 @@ function App() {
             element={
               <Gallery
                 Title="Hospitality"
-                images={[
-                  Lifestyle1,
-                  Lifestyle2,
-                  Lifestyle3,
-                  Lifestyle4,
-                  Lifestyle5,
-                  Lifestyle6,
-                  Lifestyle7,
-                  Lifestyle8,
-                  Lifestyle9,
-                ]}
+                // images={[
+                //   Lifestyle2,
+                //   Lifestyle3,
+                //   Lifestyle4,
+                //   Lifestyle5,
+                //   Lifestyle6,
+                //   Lifestyle7,
+                //   Lifestyle8,
+                //   Lifestyle9,
+                // ]}
                 videos={[
                   'https://res.cloudinary.com/dgikemsx7/video/upload/f_auto:video,q_auto/v1/hospitality/j9jpg2fwuossxnry2j52',
                   'https://res.cloudinary.com/dgikemsx7/video/upload/f_auto:video,q_auto/fnb3nkpclz1hjk3rvitu'
@@ -337,26 +336,26 @@ function App() {
               <Gallery
                 Title="Wedding"
                 images={[
-                  Wedding1,
-                  Wedding2,
-                  // Wedding3,
-                  Wedding4,
-                  Wedding5,
-                  // Wedding6,
-                  Wedding7,
-                  // Wedding8,
-                  Wedding9,
-                  Wedding10,
-                  // Wedding11,
-                  // Wedding12,
-                  // Wedding13,
-                  Wedding14,
-                  Wedding15,
-                  // Wedding16,
-                  // Wedding17,
-                  // Wedding18,
-                  // Wedding19,
-                  Wedding20,
+                  // Wedding1,
+                  // Wedding2,
+                  // // Wedding3,
+                  // Wedding4,
+                  // Wedding5,
+                  // // Wedding6,
+                  // Wedding7,
+                  // // Wedding8,
+                  // Wedding9,
+                  // Wedding10,
+                  // // Wedding11,
+                  // // Wedding12,
+                  // // Wedding13,
+                  // Wedding14,
+                  // Wedding15,
+                  // // Wedding16,
+                  // // Wedding17,
+                  // // Wedding18,
+                  // // Wedding19,
+                  // Wedding20,
                 ]}
                 videos={['https://res.cloudinary.com/dgikemsx7/video/upload/f_auto:video,q_auto/v1/wedding/dl1yefmtysj5vhdk2cp9', 'https://res.cloudinary.com/dgikemsx7/video/upload/f_auto:video,q_auto/v1/wedding/vncla7nbeoy8xkejcgy1']}
                 banner={['https://res.cloudinary.com/dgikemsx7/video/upload/f_auto:video,q_auto/v1/wedding/dl1yefmtysj5vhdk2cp9']}
@@ -394,7 +393,7 @@ function App() {
             />
           </Route>
 
-          {/* Blog Pages */}
+          Blog Pages
           <Route path="/blogs" element={<Blog />}>
             <Route index element={<BlogHome />} />
             <Route path="marketing" element={<Marketing />} />

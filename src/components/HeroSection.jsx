@@ -20,7 +20,7 @@ const HeroSection = () => {
           loop
           muted={isMuted} // Set muted based on state
           className="w-full h-full object-cover"
-          src={'https://res.cloudinary.com/dgikemsx7/video/upload/f_auto:video,q_auto/najvbvtrg9jqn2eu2sqw.mp4'}
+          src={'https://res.cloudinary.com/ddxdrfr2c/video/upload/f_auto:video,q_auto/v1731194842/herovid_b1pd5r.mp4'}
         />
 
         {/* Mute/Unmute Button */}

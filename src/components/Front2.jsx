@@ -61,7 +61,7 @@ const Front2 = () => {
           </h4>
           {/* Responsive text size */}
           <h1 className="text-2xl md:text-3xl lg:text-4xl leading-tight">
-            We are innovators in student support and education technology.
+            Innovators in student support
           </h1>
         </div>
         <div className="p-4 md:p-8 w-full md:w-[70%] flex flex-col gap-4 bg-blue-700">

@@ -1,4 +1,3 @@
-// 
 import Navbar from "../../Navbar";
 import Footer from "../../Footer";
 import BubbleComponent from "../../solutions/page/BubbleComponent";

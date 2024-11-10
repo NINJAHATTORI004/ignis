@@ -308,10 +308,7 @@ export default function Footer({ mode = "dark", next }) {
         </div>
 
         <div className="mt-16 pt-8 border-t border-gray-200 flex flex-col sm:flex-row justify-between items-center text-sm text-gray-500">
-          <p>Copyright of Byproduct Ventures LLP</p>
-          <p className="mt-4 sm:mt-0">
-            A recognised startup under Startup India
-          </p>
+          
           <p className="mt-4 sm:mt-0 flex items-center">
             Proudly made in &nbsp;{" "}
             <span>

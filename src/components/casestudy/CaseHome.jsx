@@ -9,11 +9,9 @@ const CaseHome = () => {
 
   const categories = [
     "All",
-    "HOSPITALITY",
-    "FASHION",
-    "HEALTH AND FITNESS",
-    "LEGAL",
-    "TECHNOLOGY",
+    "OUR MODEL",
+    "MENTAL HEALTH",
+"STUDENT"
   ];
   return (
     <>
