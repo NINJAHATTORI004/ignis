@@ -77,14 +77,15 @@ const Front2 = () => {
       </div>
       {/* Second Section: 60vh */}
       <div className="h-[60vh] w-full">
-        <video
+        <img src="vis.jpg" alt="" />
+        {/* <video
           src="https://res.cloudinary.com/dgikemsx7/video/upload/f_auto:video,q_auto/v1/About%20us/vlw3lkdmzist3gumfqlp" // Replace with the actual video path
           alt="Ignis Mentis promotional video" // Provided a meaningful alt text for accessibility
           className="object-cover w-full h-full"
           autoPlay
           loop
           muted
-        />
+        /> */}
       </div>
     </div>
   );
