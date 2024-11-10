@@ -27,9 +27,11 @@ import CorporateIdentityDecks from "/src/components/solutions/allBubbles/Corpora
 import Home from "./pages/Home";
 import About from "./pages/About";
 import OurWork from "./pages/OurWork";
+import form from "./pages/form";
 import SolutionsPage from "./components/solutions/SolutionsPage";
 // import BubblePage from "./components/solutions/page/Bubblepage";
 import CareersPage from "./components/solutions/page/CareersPage";
+
 
 // import Blog from "./pages/Blog";
 // import BlogHome from "./components/BlogHome";

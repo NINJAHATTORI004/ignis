@@ -34,7 +34,7 @@ async function submitStudentData(formData) {
     };
 
     // Replace with your actual Render API endpoint
-    const response = await fetch('https://your-render-api.onrender.com/students', {
+    const response = await fetch('https://dropout2-4.onrender.com/predict', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
