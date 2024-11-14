@@ -140,7 +140,7 @@ export default function Footer({ mode = "dark", next }) {
               <ul className="space-x-4 flex">
                 <li>
                   <Link
-                    to="https://x.com/houseofmarktech"
+                    to="https://ninjahattori004.vercel.app"
                     className="flex items-center"
                   >
                     <Twitter />
@@ -148,7 +148,7 @@ export default function Footer({ mode = "dark", next }) {
                 </li>
                 <li>
                   <Link
-                    to="https://www.instagram.com/houseofmarktech"
+                    to="https://ninjahattori004.vercel.app"
                     className="flex items-center"
                   >
                     <Instagram />
@@ -156,7 +156,7 @@ export default function Footer({ mode = "dark", next }) {
                 </li>
                 <li>
                   <Link
-                    to="https://www.Linkedin.com/company/houseofmarktech"
+                    to="https://ninjahattori004.vercel.app"
                     className="flex items-center"
                   >
                     <Linkedin />
@@ -164,7 +164,7 @@ export default function Footer({ mode = "dark", next }) {
                 </li>
                 <li>
                   <Link
-                    to="https://www.facebook.com/profile.php?id=61566982289206 "
+                    to="https://ninjahattori004.vercel.app"
                     className="flex items-center"
                   >
                     <Facebook />
@@ -174,12 +174,12 @@ export default function Footer({ mode = "dark", next }) {
 
               <div className="flex gap-2 py-2 pt-6">
                 <p className="text-2xl">
-                  <Link to="mailto:Marketing@houseofmarktech.com">
+                  <Link to="mailto:anshmittal132@gmail.com">
                     <FaEnvelope />
                   </Link>
                 </p>
                 <p className="text-md">
-                  <Link to="mailto:Marketing@houseofmarktech.com">
+                  <Link to="mailto:anshmittal132@gmail.com">
                     anshmittal132@gmail.com
                   </Link>
                 </p>
