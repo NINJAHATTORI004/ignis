@@ -132,9 +132,9 @@ export default function Footer({ mode = "dark", next }) {
           <div>
             <img src={logo} className="h-20 -ml-3 mb-5" alt="" />
             <h3 className="font-semibold mb-2">Office Address</h3>
-            <p>1410p Gurgaon</p>
-            <p>Sector 46, E block</p>
-            <p>Bharat City Ghaziabad </p>
+            <p>in the minds of the chaps</p>
+            <p></p>
+            <p> </p>
             <div className="mt-6">
               <h3 className="font-semibold mb-2">Socials</h3>
               <ul className="space-x-4 flex">
