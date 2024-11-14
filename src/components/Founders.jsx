@@ -1,4 +1,4 @@
-import sidProfileImage from "../assets/images/profile/DSC05545.jpg";
+import sidProfileImage from "../assets/images/profile/DSC05548.jpg";
 import kritiProfileImage from "../assets/images/profile/DSC05548.jpg";
 
 const Founders = () => {
