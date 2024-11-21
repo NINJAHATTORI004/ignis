@@ -29,19 +29,11 @@ import About from "./pages/About";
 import OurWork from "./pages/OurWork";
 import form from "./pages/form";
 import SolutionsPage from "./components/solutions/SolutionsPage";
-// import BubblePage from "./components/solutions/page/Bubblepage";
+
 import CareersPage from "./components/solutions/page/CareersPage";
 
 
-// import Blog from "./pages/Blog";
-// import BlogHome from "./components/BlogHome";
-// import Marketing from "./components/Marketing";
-// import Seo from "./components/Seo";
-// import PPC from "./components/PPC";
-// import SocialMedia from "./components/SocialMedia";
-// import WebDesign from "./components/WebDesign";
-// import Internet from "./components/Internet";
-// import CaseHome from "./components/casestudy/CaseHome";
+
 
 import Blog from "./pages/Blog";
 import BlogHome from "./components/BlogHome";
@@ -85,8 +77,6 @@ import ReferralPage from "./pages/ReferralPage";
 
 
 
-// import AutomobilesV3 from "./assets/videos/automobiles/3199733625792534602_62038889906.mp4";
-// import AutomobilesV4 from "./assets/videos/automobiles/3359039713419070844_62038889906.mp4";
 
 function App() {
   const { user } = useAuth0();
