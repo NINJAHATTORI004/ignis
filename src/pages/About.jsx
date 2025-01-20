@@ -1,8 +1,10 @@
-
+// import React, { useEffect } from 'react'
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import HorizontalScroll from "../components/HorizontalScroll";
 import FoundingTeam from "../components/FoundingTeam";
+// import Social from '../components/Social'
+// import AboutFooter from '../components/AboutFooter'
 
 import Banner from "../assets/images/Banner.png";
 const About = () => {
