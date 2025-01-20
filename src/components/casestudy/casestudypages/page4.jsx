@@ -41,7 +41,7 @@ const Page4 = () => {
       </section>
       <div className="bg-gray-300">
         <h1 className="text-6xl text-black font-bold text-center z-hero py-8">
-          Justispherex Legal Growth Journey
+          Integrated Counselling Services
         </h1>
       </div>
 
