@@ -1,7 +1,7 @@
 # Ignis – Empowering Student Success
 
 ## Overview
-IgnesMentes is a comprehensive platform designed to address key challenges faced by students in academic, financial, and mental wellness areas. By leveraging advanced technology, including machine learning and real-time tracking systems, IgnesMentes aims to:
+IgnisMentis is a comprehensive platform designed to address key challenges faced by students in academic, financial, and mental wellness areas. By leveraging advanced technology, including machine learning and real-time tracking systems, IgnesMentes aims to:
 
 - Enhance academic performance.
 - Improve financial aid accessibility.
